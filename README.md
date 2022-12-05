@@ -10,3 +10,8 @@ There's about to be:
 3. Anything else??
 
 4. Some JS (things just-for-fun as well)
+
+Notes:
+1-st (.html doc ref):
+2-nd (.html doc ref):
+3-rd (.html doc ref):

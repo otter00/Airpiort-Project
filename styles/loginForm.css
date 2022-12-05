@@ -1,0 +1,48 @@
+/*      GENERAL     */
+
+
+html {
+    max-width: 1600px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+    max-width: 100%;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box; /* means that all the things inside have internal limits in order to hide y-scroll */
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*      FORM STYLES     */
+
+
+.login__container {
+    width: 100%;
+    min-height: 100vh;
+
+    /*     ELEMS-POSITIONING    */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    /*      BG-POSITIONING     */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    z-index: 1; /* in order not to cover log-in form */
+}
+
