@@ -36,7 +36,7 @@ function isNotEmpty(field) {
 
         //field.className = "You successfully authorized"; //Resets field back to default
         alert("You successfully authorized");
-        window.location.href = 'index.html';
+        window.location.href = 'htmls/index2.html';
         //return true; //Submits form
     }
 }
