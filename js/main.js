@@ -29,7 +29,7 @@ function isNotEmpty(field) {
     var fieldData = field.value;
 
     if (fieldData.length == 0 || fieldData == "") {
-        field.className = "FieldError"; //Classs to highlight error
+        //field.className = "FieldError"; //Class to highlight error
         alert("Incorrect");
         //return false;
     } else {
