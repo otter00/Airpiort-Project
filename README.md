@@ -11,7 +11,7 @@ There's about to be:
 
 4. Some JS (things just-for-fun as well)
 
-Notes:
+There may be some notes:
 1-st (.html doc ref):
 2-nd (.html doc ref):
 3-rd (.html doc ref):
