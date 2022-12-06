@@ -7,3 +7,14 @@
     font-family: Ubuntu-Bold;
     src: url('../fonts/ubuntu/Ubuntu-Bold.ttf'); 
   }
+
+html {
+    max-width: 1600px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
+    max-width: 100%;
+}

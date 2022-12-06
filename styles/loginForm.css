@@ -1,17 +1,6 @@
 /*      GENERAL     */
 
 
-html {
-    max-width: 1600px;
-    min-width: 300px;
-    margin: 0 auto;
-}
-
-body {
-    font-family: 'Roboto', 'Source Sans Pro', sans-serif;
-    max-width: 100%;
-}
-
 * {
     padding: 0;
     box-sizing: border-box; /* means that all the things inside have internal limits in order to hide y-scroll */

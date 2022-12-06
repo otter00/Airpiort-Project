@@ -33,10 +33,9 @@ function isNotEmpty(field) {
         alert("Incorrect");
         //return false;
     } else {
-
         //field.className = "You successfully authorized"; //Resets field back to default
         alert("You successfully authorized");
-        window.location.href = 'htmls/index2.html';
+        window.location.href = 'htmls/airportOVB.html';
         //return true; //Submits form
     }
 }
