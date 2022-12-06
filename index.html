@@ -22,7 +22,7 @@
 
     <div class="container">
 
-        <form name="form1" method="" action="" onsubmit="return validateForm(this)">
+        <form name="form1" id="login__form" method="POST" action="/apply" onsubmit="return validateForm(this)">
             <div class="login-form__container" style="background-image: url('Imgs/background.jpg');">
                 <div class="login-form__wrapper">
                     <span class="login-form__title">Account Login</span>
@@ -30,17 +30,19 @@
                     <div class="login-form validate-form">
 
                         <div class="wrap-input validate-input" data-validate="Enter username">
-                            <input class="input" id="login" type="text" name="username" placeholder="Type username">
+                            <input class="input" id="login__input" type="text" name="username"
+                                placeholder="Type username" required autofocus>
                             <!-- <i class="focus-input100 fa fa-user-o" aria-hidden="true"></i> -->
                         </div>
 
                         <div class="wrap-input validate-input" data-validate="Enter password">
-                            <input class="input" id="password" type="password" name="pass" placeholder="Type password">
+                            <input class="input" id="password__input" type="password" name="pass"
+                                placeholder="Type password" required>
                             <!-- <i class="focus-input100 fa fa-lock" aria-hidden="true"></i> -->
                         </div>
 
                         <div class="container-login-form__btn">
-                            <button class="login-form__btn">Login</button>
+                            <button class="login-form__btn" type="submit">Login</button>
                         </div>
                     </div>
 
