@@ -1,7 +1,7 @@
 /*      HEADER      */
 
 
-/*desktop*/
+/* desktop */
 
 .header {
     display: grid;
@@ -65,7 +65,7 @@
 }
 
 
-/*general*/
+/* general */
 
 a {
     text-decoration: none;

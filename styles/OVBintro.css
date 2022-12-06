@@ -1,0 +1,110 @@
+ /* MAIN */
+
+.main {
+    display: grid;
+    grid-template-rows: repeat(5, max-content);
+    row-gap: 120px;
+}
+
+/*INTRO*/
+
+/* desktop */
+
+.intro {
+    grid-template-rows: [intro-title-start intro-image-start] 56% [btns-start] 28% [slides-start] 1fr [intro-image-end];
+    grid-template-columns: 9.4vw [intro-content-start] minmax(300px, 40%) [intro-image-start] 1fr [intro-image-end] 9.4vw;
+    display: grid;
+    min-height: max-content;
+
+    padding: 7% 0 7% 0;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    z-index: 1; /* in order not to cover log-in form */
+}
+
+.intro__project-name {
+    grid-row-start: intro-title-start;
+    grid-column-start: intro-content-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.title-text {
+    font-size: 4em;
+    line-height: 4rem;
+}
+
+.intro__btns {
+    grid-row-start: btns-start;
+    grid-column-start: intro-content-start;
+    display: flex;
+    align-items: center;
+}
+
+.intro__btn {
+    margin-right: 25px;
+}
+
+.intro__slides {
+    grid-row-start: slides-start;
+    grid-column-start: intro-content-start;
+    display: flex;
+    align-items: flex-start;
+}
+
+.intro__slide-numbers {
+    margin-right: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.5em;
+    color: #484848;
+}
+
+.intro__project {
+    grid-area: intro-image-start / intro-image-start / intro-image-end / intro-image-end;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.intro__text {
+    font-size: 3em;
+    line-height: 4rem;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+/* general */
+
+.intro__project-img {
+    max-width: 100%;
+}
+
+.intro__btn {
+    width: 53px;
+    height: 53px;
+    cursor: pointer;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+}
+
+.intro__btn:hover {
+    background-color: #c8c6c6;
+}
+
+.intro__btn:active {
+    background-color: #b3b2b2;
+}
+
+.title-text {
+    font-weight: 300;
+    color: #BDBDBD;
+}
