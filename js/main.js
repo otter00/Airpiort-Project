@@ -20,7 +20,7 @@ function validateForm(applicantForm) {
     //var nameField = form.username;
     //var passLine = form.pass;
 
-    if (name != "anastasia") {
+    if ((name != "anastasia") && (name != "alexander")) {
         alert("Incorrect");
     } else {
         alert("You successfully authorized");
