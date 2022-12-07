@@ -25,6 +25,8 @@
     flex-direction: column;
     justify-content: center;
     text-transform: uppercase;
+
+    letter-spacing: 7px;
 }
 
 .title-text {
@@ -73,6 +75,8 @@
     color: #333333;
     text-transform: uppercase;
     padding-top: 3vh;
+
+    letter-spacing: 2px;
 }
 
 /* general */
@@ -100,5 +104,5 @@
 .title-text {
     font-style: italic;
     font-weight: 500;
-    color: #bababa;
+    color: #cbcbcb;
 }

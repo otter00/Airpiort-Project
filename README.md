@@ -2,7 +2,7 @@
 
 ## Airport project repo for lab3 (OPI)
 
-\*Website: https://otter00.github.io/Airport-Project/
+- Website: https://otter00.github.io/Airport-Project/
 
 ### There's about to be:
 
