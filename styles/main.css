@@ -18,3 +18,21 @@ body {
     font-family: 'Roboto', 'Source Sans Pro', sans-serif;
     max-width: 100%;
 }
+
+.main {
+  display: grid;
+  grid-template-rows: repeat(5, max-content);
+  row-gap: 60px;
+}
+
+/* general */
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+}

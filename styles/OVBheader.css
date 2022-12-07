@@ -1,6 +1,5 @@
 /*      HEADER      */
 
-
 /* desktop */
 
 .header {
@@ -34,7 +33,7 @@
     /* Добавила здесь border чтобы ссылки не прыгали при наведении курсора. Потому что при наведении появляется оформление border снизу и сверху (Юля) */
 }
 
-/*general-header*/
+/* general */
 
 .header__home-click {
     position: absolute;
@@ -62,17 +61,4 @@
 .header__link:active {
     border-top: 1px solid #333333;
     border-bottom: 1px solid #333333;
-}
-
-
-/* general */
-
-a {
-    text-decoration: none;
-}
-
-p,
-h1,
-h2 {
-    margin: 0;
 }

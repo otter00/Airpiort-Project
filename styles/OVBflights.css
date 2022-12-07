@@ -1,0 +1,55 @@
+/* desktop */
+
+.flights {
+    display: grid;
+    grid-template-columns: 9.4vw [main-content-start] 1fr [main-content-end] 9.4vw;
+    min-height: 60vh;
+
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+
+    z-index: 1; /* in order not to cover log-in form */
+}
+
+.flights__container {
+    grid-column-start: main-content-start;
+    grid-column-end: main-content-end;
+
+    padding-top: 12%;
+}
+
+.wrapper input, select {
+    color: rgb(174, 173, 173);
+    border: 1px solid rgb(174, 173, 173);
+}
+
+.wrapper select {
+    color: black;
+    width: 10vw;
+}
+
+.wrapper table {
+    margin: 20px 0 20% 0;
+    border-collapse: separate;
+    width: 75vw;
+}
+
+.wrapper td{
+    border: 1px solid rgb(174, 173, 173);
+    color: black;
+}
+
+#button__add {
+    color: black;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 1px solid rgb(174, 173, 173);
+    cursor: pointer;
+    overflow: hidden;
+    width: 7vw;
+}
+
+/* general */

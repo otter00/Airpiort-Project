@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/OVBheader.css">
     <link rel="stylesheet" href="../styles/OVBintro.css">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/OVBflights.css">
 
     <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
@@ -38,10 +39,12 @@
 
         <section class="intro" style="background-image: url('../Imgs/background.jpg');">
             <div class="intro__project-name">
-                <h1 class="intro__title title-text">Aviation</h1>
-                <p class="intro__text">is future</p>
+                <h1 class="intro__title title-text">Aviate</h1>
+                <p class="intro__text">Navigate</p>
+                <p class="intro__text">Communicate</p>
             </div>
-            <div class="intro__btns">
+            <!-- hidden block -->
+            <div class="intro__btns" style="display: none;">
                 <button class="intro__btn">&larr;</button>
                 <button class="intro__btn">&rarr;</button>
             </div>
@@ -60,8 +63,49 @@
             </div>
         </section>
 
-    </main>
+        <section class="flights" style="background-image: url('../Imgs/airport.jpg');">
+            <div class="flights__container">
+                <div class="wrapper">
+                    <form action="">
+                        <input id="from" type="text" placeholder="City or airport (from)" required />
+                        <input id="to" type="text" placeholder="City or airport (to)" required />
+                        <input id="depart" type="text" placeholder="Departure date" required />
+                        <input id="return" type="text" placeholder="Return date" required />
+                        <select name="passengers" id="">
+                            <option value="Adult">Adult</option>
+                            <option value="Child">Child</option>
+                            <option value="Retiree">Retiree</option>
+                        </select>
+                        <input id="button__add" type="submit" value="Add" />
+                    </form>
+                    <table>
+                        <tr>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Depart</th>
+                            <th>Return</th>
+                            <th>Passengers</th>
+                        </tr>
+                        <tr>
+                            <td>St.Petersburg (LED)</td>
+                            <td>Novosibirsk (OVB)</td>
+                            <td>31.12.2022</td>
+                            <td>09.01.2023</td>
+                            <td>Adult</td>
+                        </tr>
+                        <tr>
+                            <td>Rome (FCO)</td>
+                            <td>Moscow (SVO)</td>
+                            <td>11.05.2023</td>
+                            <td>15.05.2023</td>
+                            <td>Adult</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
 
+    </main>
 
     <script src="../js/main.js"></script>
     <script src="../js/airportOVB.js"></script>
