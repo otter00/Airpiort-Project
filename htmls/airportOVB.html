@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../styles/OVBheader.css">
     <link rel="stylesheet" href="../styles/OVBintro.css">
     <link rel="stylesheet" href="../styles/OVBflights.css">
+    <link rel="stylesheet" href="../styles/OVBfooter.css">
 
     <link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
@@ -37,9 +38,9 @@
 
     <main class="main">
 
-        <section class="intro" style="background-image: url('../Imgs/background.jpg');">
+        <section class="intro" id="intro_to_change" style="background-image: url('../Imgs/background.jpg');">
             <div class="intro__project-name">
-                <h1 class="intro__title title-text">Aviate</h1>
+                <h1 class=" intro__title title-text">Aviate</h1>
                 <p class="intro__text">Navigate</p>
                 <p class="intro__text">Communicate</p>
             </div>
@@ -48,6 +49,7 @@
                 <button class="intro__btn">&larr;</button>
                 <button class="intro__btn">&rarr;</button>
             </div>
+            <!-- hidden block end -->
             <div class="intro__slides">
                 <span class="intro__slide-numbers">01</span>
                 <svg class="intro__slide-numbers" width="34" height="33" viewBox="0 0 34 33" fill="none"
@@ -59,7 +61,8 @@
                 <span class="intro__slide-numbers">02</span>
             </div>
             <div class="intro__project">
-                <img class="intro__project-img" src="../Imgs/delta.jpg" alt="Project image">
+                <img class="intro__project-img" id="img_to_change" src="../Imgs/delta.jpg" alt="Project image"
+                    onclick='changeImage("../Imgs/b747.jpg");'>
             </div>
         </section>
 
@@ -104,6 +107,47 @@
                 </div>
             </div>
         </section>
+
+        <footer class="footer">
+            <div class="footer__gap"></div>
+            <div class="footer__content">
+                <p class="footer__title">Information</p>
+                <p class="footer__title footer__title--mid">Contacts</p>
+                <p class="footer__title footer__title--lower">Social Media</p>
+                <a class="footer__link footer__link--top" href="#"><i class="fa fa-plane" aria-hidden="true"></i>
+                    Departures</a>
+                <a class="footer__link footer__link--top" href="#"><i class="fa fa-plane" aria-hidden="true"></i>
+                    Arrivals</a>
+                <a class="footer__link footer__link--top" href="#"><i class="fa fa-plane" aria-hidden="true"></i>
+                    About</a>
+                <a class="footer__link footer__link--top" href="#"><i class="fa fa-phone" aria-hidden="true"></i>
+                    Contacts</a>
+                <div class="footer__address">
+                    <p class="footer__text"><i class="fa fa-snowflake-o" aria-hidden="true"></i> Novosibirsk <br>
+                        Tolmachevo area</p>
+                </div>
+                <div class="footer__mail">
+                    <a class="footer__link" href="tel:+75123332222"><i class="fa fa-envelope" aria-hidden="true"></i>
+                        sampleemail@gmail.com</a>
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="#">
+                        <span><i class="fa fa-twitter-square" aria-hidden="true" style="color: white;"></i>
+                            Twitter</span>
+                    </a>
+                    <a class="footer__social-link" href="#">
+                        <span><i class="fa fa-facebook-square" aria-hidden="true" style="color: white;"></i>
+                            Facebook</span>
+                    </a>
+                    <a class="footer__social-link" href="#">
+                        <span><i class="fa fa-vk" aria-hidden="true" style="color: white;"></i> VK</span>
+                    </a>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>&copy; 2022 All Rights Reserved</p>
+            </div>
+        </footer>
 
     </main>
 

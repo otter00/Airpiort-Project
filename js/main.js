@@ -12,6 +12,9 @@
 // }
 
 
+/*      AUTHORIZATION CHANGE        */
+
+
 /*  Функция-запасной аэродром */ 
 
 function validateForm(applicantForm) {

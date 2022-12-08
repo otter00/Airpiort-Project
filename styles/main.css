@@ -21,7 +21,7 @@ body {
 
 .main {
   display: grid;
-  grid-template-rows: repeat(5, max-content);
+  grid-template-rows: repeat(3, max-content);
   row-gap: 60px;
 }
 
