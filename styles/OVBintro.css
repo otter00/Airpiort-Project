@@ -30,8 +30,8 @@
 }
 
 .title-text {
-    font-size: 4em;
-    line-height: 4rem;
+    font-size: 5vw;
+    line-height: 8vh;
 }
 
 .intro__btns {
@@ -69,8 +69,8 @@
 }
 
 .intro__text {
-    font-size: 4em;
-    line-height: 4rem;
+    font-size: 4.3vw;
+    line-height: 8vh;
     font-weight: 500;
     color: #333333;
     text-transform: uppercase;
